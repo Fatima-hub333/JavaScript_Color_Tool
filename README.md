@@ -4,7 +4,7 @@
 
 > JavaScript_Color_Tool
 
-It's a color lighten/darken tool with Vanilla HTML, CSS &amp; JavaScript.
+It's a color lighten/darken tool with Vanilla HTML, CSS & JavaScript. Topics cover in this project includes HTML, CSS, JavaScript, DOM Manipulation, HEX & RGBA Colors, Creating a custom Toggle Button.
 
 <!-- ![screenshot](images/Portfolio.png) -->
 
