@@ -8,6 +8,21 @@
   <title>Document</title>
 </head>
 <body>
-  
+  <div class="container">
+    <h1 class="title">Color Lighten/Darken</h1>
+  </div>
+  <label for="hex">Color (Hex)</label>
+  <input type="text" name="hex" id="hexInput" placeholder="#00000">
+
+  <label for="slider" id="sliderText">0%</label>
+  <input type="range" min="0" max="100" value="0"
+         class="slider" id="slider" name="slider">
+
+  <p>Input Color</p>
+  <div id="inputColor" class="box"></div>
+  <p>Alter Color</p>
+  <div id="alteredColor" class="box"></div>
+
+  <script src="index.js"></script>
 </body>
 </html>
