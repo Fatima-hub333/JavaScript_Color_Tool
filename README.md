@@ -6,6 +6,13 @@
 
 It's a color lighten/darken tool with Vanilla HTML, CSS & JavaScript. Topics cover in this project includes HTML, CSS, JavaScript, DOM Manipulation, HEX & RGBA Colors, Creating a custom Toggle Button.
 
+JavaScript functions cover in this project are;
+- parseInt()
+- getElementById()
+- replace()
+- toString()
+- contains
+
 <!-- ![screenshot](images/Portfolio.png) -->
 
 ## [LiveDemo] 
