@@ -4,25 +4,26 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
   <link rel="stylesheet" href="index.css">
   <title>Document</title>
 </head>
 <body>
   <div class="container">
     <h1 class="title">Color Lighten/Darken</h1>
-  </div>
+  
   <label for="hex">Color (Hex)</label>
   <input type="text" name="hex" id="hexInput" placeholder="#00000">
 
   <label for="slider" id="sliderText">0%</label>
   <input type="range" min="0" max="100" value="0"
          class="slider" id="slider" name="slider">
-
+         
   <p>Input Color</p>
   <div id="inputColor" class="box"></div>
   <p>Alter Color</p>
   <div id="alteredColor" class="box"></div>
-
+  </div>
   <script src="index.js"></script>
 </body>
 </html>
