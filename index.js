@@ -1,6 +1,8 @@
 //Get a reference to hexInput and inputColor DOM elements
 const hexInput = document.getElementById('hexInput');
 const inputColor = document.getElementById('inputColor');
+const sliderText = document.getElementById("sliderText");
+const slider = document.getElementById("slider");
 //Create a keyup event handler for hexInput
 hexInput.addEventListener('keyup', () => {
   const hex = hexInput.value;
@@ -38,7 +40,7 @@ const convertHexToRGB = (hex) => {
 
   return { r, g, b };
 }
-
+//Convert RGB To HEXA Solution
 const convertRGBToHex = (r, g, b) => {
   const firstPair = ("0" + r.toString(16)).slice(-2);
   const secondPair = ("0" + g.toString(16)).slice(-2);
@@ -47,6 +49,12 @@ const convertRGBToHex = (r, g, b) => {
   const hex = "#" + firstPair + secondPair + thirdPair;
   return hex;
 }
-console.log(convertRGBToHex(0,0,255));
+console.log(convertRGBToHex(0, 0, 255));
 
-//Convert RGB To HEXA Solution
+//get a reference to the slider and sliderText DOM elements
+//create an input event listener for slider element
+//display the value of the slider
+
+slider.addEventListener('input', () => {
+  sliderText.textContent = `${slider.value}%`;
+})
