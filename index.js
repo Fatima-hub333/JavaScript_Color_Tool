@@ -51,6 +51,24 @@ const convertRGBToHex = (r, g, b) => {
 }
 console.log(convertRGBToHex(0, 0, 255));
 
+
+
+//Create the alterColor function which accepts hex value and percentage
+const alterColor = (hex, percentage) => {
+  //convert the hex value to rgb
+  const { r, g, b } = convertHexToRGB(hex);
+  //increase each r,g,b value by appropriate amount (percentage of 255)
+  const amount = Math.floor((percentage / 100) * 255);
+  //use the new r,g,b values to convert to a hex value
+  const newR = r + amount;
+  const newG = g + amount;
+  const newB = b + amount;
+  console.log(newR, newG, newB);
+  //return the hex value
+  return convertRGBToHex(newR, newG, newB);
+}
+
+console.log(alterColor("de5254", 10));
 //get a reference to the slider and sliderText DOM elements
 //create an input event listener for slider element
 //display the value of the slider
