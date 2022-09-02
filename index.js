@@ -5,6 +5,25 @@ const alteredColor = document.getElementById('alteredColor');
 const alteredColorText = document.getElementById('alteredColorText');
 const sliderText = document.getElementById("sliderText");
 const slider = document.getElementById("slider");
+//lightenText, darkenText, toggleBtn
+const lightenText = document.getElementById("lightentext");
+const darkenText = document.getElementById("darkentext");
+const toggleBtn = document.getElementById('toggleBtn');
+//Create click event to the toggle button
+toggleBtn.addEventListener('click', () => {
+  if (toggleBtn.classList.contains('toggled')) {
+    toggleBtn.classList.remove('toggled');
+    lightenText.classList.remove('unselected');
+    darkenText.classList.add('unselected');
+  } else {
+    toggleBtn.classList.add('toggled');
+    lightenText.classList.add('unselected');
+    darkenText.classList.remove('unselected');
+  }
+})
+
+
+
 //Create a keyup event handler for hexInput
 hexInput.addEventListener('keyup', () => {
   const hex = hexInput.value;
