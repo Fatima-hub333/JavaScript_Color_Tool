@@ -16,7 +16,7 @@ JavaScript functions cover in this project are;
 <!-- ![screenshot](images/Portfolio.png) -->
 
 ## [LiveDemo] 
-<!-- (https://melodious-tanuki-cc1851.netlify.app/) -->
+(hhttps://voluble-gumdrop-34442e.netlify.app)
 
 
 ## Built With
