@@ -14,6 +14,19 @@
   
   <label for="hex">Color (Hex)</label>
   <input type="text" name="hex" id="hexInput" placeholder="#00000" value="#c6d5ac">
+  <!-- div with a class of toggle -->
+  <!-- two peices of text -- lighten/darken -->
+  <!-- div with id toggleButton and 
+    inside will have a div for circle button 
+  with id inner-circle-->
+
+  <div class="toggle">
+    <p id= "lightenText" class="toggleText">Lighten</p>
+    <div id="toggleBtn" class="toggle-btn">
+      <div class="inner-circle"></div>
+    </div>
+    <p id= "darkenText" class="toggleText">Darken</p>
+  </div>
 
   <label for="slider" id="sliderText">0%</label>
   <input type="range" min="0" max="100" value="0"
