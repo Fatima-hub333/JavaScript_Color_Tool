@@ -16,7 +16,7 @@ JavaScript functions cover in this project are;
 <!-- ![screenshot](images/Portfolio.png) -->
 
 ## [LiveDemo] 
-(hhttps://voluble-gumdrop-34442e.netlify.app)
+(https://voluble-gumdrop-34442e.netlify.app)
 
 
 ## Built With
